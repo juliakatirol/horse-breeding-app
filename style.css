@@ -6,10 +6,6 @@ box-sizing: border-box;
 width: 103px;
 height: 103px;
 border: 1px solid #000000;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-flex: none;
-order: 3;
-flex-grow: 0;
 }
 
 h1{
