@@ -1,7 +1,20 @@
 body{
 font-family: none;
 padding:40px;
-background-color: #b8e8c8;
+background-color: #ffffff;
+box-sizing: border-box;
+
+width: 103px;
+height: 103px;
+
+/* Accent/Accent 4 */
+border: 1px solid #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
 }
 
 h1{
