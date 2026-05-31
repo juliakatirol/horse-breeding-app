@@ -14,7 +14,19 @@ flex-grow: 0;
 
 h1{
 text-align: center;
-font-style: italic;
+width: 1200px;
+height: 54px;
+font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 90%;
+letter-spacing: -0.03em;
+color: #000000;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
 
 h2{
@@ -37,3 +49,6 @@ border-inline-end-color: black;
 font-style: italic;
 color: aliceblue;
 }
+
+
+
