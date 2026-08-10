@@ -2,6 +2,55 @@ body{
 font-family: none;
 padding:40px;
 background-color: #ffffff;
+} 
+
+P {
+    /* ESJ */
+
+width: 50px;
+height: 36px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+
+/* Accent/Accent 4 */
+color: #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* ESJ */
+
+width: 50px;
+height: 36px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+
+/* Accent/Accent 4 */
+color: #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
 
 h1{
