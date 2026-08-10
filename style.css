@@ -74,86 +74,23 @@ gap:10px;
 }
 
 button{
-/* Nav Items */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 20px 24px;
-gap: 27px;
-
-position: absolute;
-width: 576px;
-height: 60px;
-left: calc(50% - 576px/2);
-top: 16px;
-
-background: rgba(255, 255, 255, 0.4);
-backdrop-filter: blur(15px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 100px;
-
+width: 32px;
+height: 20px;
+/* Link */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+text-align: center;
+letter-spacing: -0.025em;
+/* Text/Link */
+color: #000000;
 /* Inside auto layout */
 flex: none;
-order: 4;
+order: 0;
 flex-grow: 0;
-z-index: 4;
-
-
-/* Nav Items */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 20px 24px;
-gap: 27px;
-
-position: absolute;
-width: 591px;
-height: 60px;
-left: calc(50% - 591px/2 - 40px);
-top: 17px;
-
-background: rgba(255, 255, 255, 0.4);
-backdrop-filter: blur(15px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 100px;
-
-/* Inside auto layout */
-flex: none;
-order: 4;
-flex-grow: 0;
-z-index: 4;
-
-
-/* Nav Items */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 20px 24px;
-gap: 27px;
-
-position: absolute;
-width: 623px;
-height: 60px;
-left: calc(50% - 623px/2 + 452.5px);
-top: 16px;
-
-background: rgba(255, 255, 255, 0.4);
-backdrop-filter: blur(15px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 100px;
-
-/* Inside auto layout */
-flex: none;
-order: 4;
-flex-grow: 0;
-z-index: 4;
-
 }
 
 
