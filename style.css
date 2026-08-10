@@ -56,11 +56,25 @@ flex-grow: 0;
 button1
 
 h1{
-text-align: center;
+/* JORVIK FEDERATION INTERNATIONAL */
+width: 1200px;
+height: 54px;
+/* Heading 1 */
 font-family: 'Crimson Text';
 font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 90%;
+/* identical to box height, or 54px */
+text-align: center;
+letter-spacing: -0.03em;
+/* Black */
 color: #000000;
-
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
 
 h2{
