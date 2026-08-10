@@ -15,10 +15,7 @@ font-size: 60px;
 line-height: 90%;
 letter-spacing: -0.03em;
 color: #000000;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+
 }
 
 h2{
